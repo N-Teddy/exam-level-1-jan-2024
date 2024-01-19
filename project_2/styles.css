@@ -1,0 +1,146 @@
+/* 
+===============================================================================
+css reset 
+===============================================================================
+*/
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* 
+================================================================================
+ container
+================================================================================
+*/
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 50vw;
+    margin: 5vh 25vw;
+    background: linear-gradient( 140deg, #1e90ff 50%, rgb(121, 2, 121));
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+/* 
+================================================================================
+ card
+================================================================================
+*/
+
+.card {
+    background-color: white;
+    height: 510px;
+    width: 330px;
+    border-radius: 20px;
+    padding: 25px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.logo {
+    width: 34px;
+    height: 31px;
+}
+
+.shoe {
+    width: 250px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.description {
+    width: 270px;
+}
+
+.description p:first-of-type {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.description p:last-of-type {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.choice {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+label {
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+label input {
+    height: 16px;
+    width: 16px;
+    margin: 3px;
+    border: none;
+    display: inline-block;
+
+}
+
+
+#blue {
+    accent-color: blue;
+}
+
+#red {
+    accent-color: red;
+}
+
+#yellow {
+    accent-color: rgb(31, 110, 39);
+    
+}
+
+.price {
+    display: inline-block;
+}
+
+.price p:first-of-type {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.price p:last-of-type {
+    font-size: 9px;
+    font-weight: 700;
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    height: 40px;
+    display: block;
+    background: linear-gradient( to right, #1e90ff, rgb(121, 2, 121));
+}
+
+button a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    word-spacing: 2px;
+}
+
