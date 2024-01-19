@@ -1,0 +1,112 @@
+/* 
+================================================================================
+css reset
+================================================================================
+*/
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* 
+================================================================================
+body
+================================================================================
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* 
+================================================================================
+table
+================================================================================
+*/
+
+table {
+    margin-top: 100px;
+    border-spacing: 0;
+    border: 1px solid gray;
+}
+
+th {
+    border-bottom: 1px solid gray;
+}
+
+td{
+    border-bottom: 1px solid gray;
+}
+
+
+thead td {
+    font-size: 13px;
+    color: white;
+    padding: 15px 40px;
+}
+
+tbody tr td:first-of-type {
+    width: 300px;
+
+}
+
+tbody td {
+    padding: 5px;
+}
+
+tfoot td {
+    padding: 8px;
+}
+
+/* 
+================================================================================
+colors
+================================================================================
+*/
+
+.red {
+    background-color: #ff5400;
+}
+.blue {
+    background-color: #1e90ff;
+}
+.green {
+    background-color: #008081;
+}
+
+/* 
+================================================================================
+buttons
+================================================================================
+*/
+
+button {
+    display: inline-block;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+a {
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+
+
+
+
